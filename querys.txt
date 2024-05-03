@@ -1,0 +1,30 @@
+Create table:
+CREATE TABLE Country (
+	CountryID  INTEGER PRIMARY KEY IDENTITY NOT NULL,
+	Name NVARCHAR(100) NOT NULL,
+	Population INTEGER NOT NULL
+
+);
+Add data in Table:
+INSERT INTO Country (Name, Population)
+VALUES 
+('India', 1409902000),
+('China', 1403426000),
+('Estados Unidos', 331800000),
+('Indonesia', 271629000),
+('Pakistán', 224654000),
+('Nigeria', 219743000),
+('Brasil', 211420000),
+('Bangladés', 181781000),
+('Rusia', 146712000),
+('México', 127792000),
+('Japón', 126045000),
+('Filipinas', 108772000),
+('Egipto', 101000000),
+('Etiopía', 100882000),
+('Vietnam', 97591000),
+('República del Congo', 89561000),
+('Irán', 83914000),
+('Turquía', 83752000),
+('Alemania', 83421000),
+('Tailandia', 68232000);

@@ -1,0 +1,31 @@
+
+.example-full-width {
+  width: 70%;
+} 
+.card-container {
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #1ecd90;
+  width: 80%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

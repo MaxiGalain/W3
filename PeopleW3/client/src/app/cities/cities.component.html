@@ -1,0 +1,21 @@
+<div class="card-container">
+  <mat-card class="card">
+    <mat-card-content>
+      <h2>
+        Search Cities
+      </h2>
+      <div class="content-container">
+        <mat-form-field class="example-full-width"  >
+          <mat-label>Cities</mat-label>
+          <input type="text" matInput placeholder="Search.." [(ngModel)]="searchTerm">
+        </mat-form-field>
+        <div class="button-container">
+          <button mat-flat-button (click)="searchCountries()">Search</button>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+<div *ngIf="listCities.length > 0">
+  <app-list-city [listCities]="listCities"></app-list-city>
+</div>

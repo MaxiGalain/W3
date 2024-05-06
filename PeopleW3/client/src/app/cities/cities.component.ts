@@ -43,10 +43,7 @@ export class CitiesComponent implements OnInit {
 
   ];
   total: number = 0;
-  ngOnInit(): void {
-    // Código que deseas ejecutar cuando el componente se inicialice
-    console.log(this.cities);
-  }
+  ngOnInit(): void {}
   constructor(private snackbarService: SnackbarServiceService) { }
   
   searchCountries(): void {
@@ -75,7 +72,7 @@ export class CitiesComponent implements OnInit {
   }
   getPercentajeTotal(total: number){
     this.listCities.forEach(country => {
-      country.percentage = (country.population / this.total) * 100;
+      country.percentage = (country.population / total) * 100;
     });
   }
   normalizeString(text: string): string {

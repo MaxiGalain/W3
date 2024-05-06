@@ -6,8 +6,6 @@ Este proyecto fue creado con angular 17. Consiste en un buscador de ciudades, al
 
 Para poder probar el mismo es necesario tener instalados node.js y npm. En caso de no tenerlos, visitar la siguiente url: https://nodejs.org/en. Para su correcta instalación siga los pasos del instalador.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
 ## Levantar App.
 
 Para poder levantar y testear la aplicación, escriba en la consola 'ng serve'. Si no se abre automaticamente la ventada de chrome ( o su navegador por default ), copie la siguiente url en una nueva pestaña de su navegador: http://localhost:4200/.
